@@ -1,0 +1,7 @@
+local p = game.Players.LocalPlayer
+local char = game.Players.LocalPlayer.Character
+local model = game:service("InsertService"):LoadAsset(188649962)
+model:clone()
+model.Parent = Workspace
+model:MoveTo(me.Character.Torso.Position + Vector3.new(math.random(-15,15), math.random(2,25), math.random(-15,15)))
+end)
